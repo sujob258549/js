@@ -154,11 +154,25 @@
 // }
 
 
-let arrays = [10, 20, 30, 40, 50, 60];
-
-
 // arrays.push(11 , 12 ,13 , 14);
 // arrays.pop();
-arrays.unshift(12, 14 , 16)
+// arrays.unshift(12, 14 , 16)
 
-console.log(arrays);
+
+
+// let arrays = [10, 20, 30, 40, 50, 60];
+
+
+// arrays.slice(2, 1);
+
+// console.log(arrays);
+
+
+// first index number delect index and add index 
+
+let arrays = [10, 20, 30, 40, 50, 60];
+
+// arrays.splice(2, 1, 11, 12, 13);
+
+// console.log(arrays.includes(20));
+console.log(Array.isArray(arrays))
