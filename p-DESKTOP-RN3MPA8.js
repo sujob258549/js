@@ -154,11 +154,54 @@
 // }
 
 
-let arrays = [10, 20, 30, 40, 50, 60];
+// let marks = 45;
+// let mark
+// if (marks >= 33 || marks > 40){
+//     console.log("Your Grate : D")
+// }
+// else if( marks < 50){
+//     console.log("Your Grate : c")
+// }
+// else if(marks >= 51 && marks < 60){
+//     console.log("Your Grate : B");
+// }
+// else if (marks >= 61 && marks < 70){
+//     console.log("Your Grate : A-");
+// }
+// else if (marks >= 1 && marks < 80){
+//     console.log("Your Grate : A");
+// }
+// else if (marks >= 80 && marks <= 100){
+//     console.log("Your Grate : A+");
+// }
+// else{
+//     console.log ("Your greats is : F");
+// }
 
 
-// arrays.push(11 , 12 ,13 , 14);
-// arrays.pop();
-arrays.unshift(12, 14 , 16)
+// Result site creats ....................................................................
+let marks =61;
+if ((marks >= 33) && (marks < 40)){
+    console.log("Your Result is a : D")
+}
+else if ((marks >= 40) && (marks < 50)){
+    console.log("Your Result is a : C")
+}
+else if ((marks >= 50) && (marks < 60)){
+    console.log("Your Result is a : B")
+}
+else if ((marks >= 60) && (marks < 70)){
+    console.log("Your Result is a : A-")
+}
+else if ((marks >= 70) && (marks < 80)){
+    console.log("Your Result is a : A")
+}
+else if ((marks >= 80) && (marks < 100)){
+    console.log("Your Result is a : A+")
+}
 
-console.log(arrays);
+
+else{
+    console.log("Your Result is a : F")
+}
+
