@@ -25,17 +25,17 @@
 // console.log(turest);
 
 
-//index of array an  is aray
+//incluids of array an  is aray
 
-// const book = ['Bangla', 'English', 'Math', 'java'];
-// console.log(book.indexOf('java')); // This will output 'true' since 'book' is an array
+const book = ['Bangla', 'English', 'Math', 'java'];
+console.log(book.includes('java')); // This will output 'true' since 'book' is an array
 
 // Aray chaek of the js cod 
-const country = ['Bangladesh', 'India', 'Pakistan', 'Iran', 'Jimbabua'];
-if(Array.isArray(country)){
-    console.log("It is a array");
-}
+// const country = ['Bangladesh', 'India', 'Pakistan', 'Iran', 'Jimbabua'];
+// if(Array.isArray(country)){
+//     console.log("It is a array");
+// }
 
-else{
-    console.log("It is a Not array");
-}
+// else{
+//     console.log("It is a Not array");
+// }
